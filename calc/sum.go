@@ -1,10 +1,7 @@
 package calc
 
-func Sum(nums ...int) (s int) {
-	for _, num := range nums {
-		s += num
-	}
-	return s
+func Sum(a int, b int) int {
+	return a + b
 }
 
 func Mul(a int, b int) int {
