@@ -6,3 +6,7 @@ func Sum(nums ...int) (s int) {
 	}
 	return s
 }
+
+func Mul(a int, b int) int {
+	return a * b
+}
