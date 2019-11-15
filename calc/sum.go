@@ -8,3 +8,7 @@ func Sum(a int, b int) int {
 func Mul(a int, b int) int {
 	return a * b
 }
+
+func del(a int, b int) int {
+	return a - b
+}
